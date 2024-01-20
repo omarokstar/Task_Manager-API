@@ -18,7 +18,7 @@ const trasporter= nodemailer.createTransport({
 const sendWelcomeEmail= (email,name)=>{
 
  trasporter.sendMail({
-    from:'"task" taskktaskk45@gmail.com',
+    from:'"taskaty" taskktaskk45@gmail.com',
     to:email,
     subject:'Thanks for joining in!',
     text:`welcome to the app,${name}.Let me know how you go along with the app.`,
